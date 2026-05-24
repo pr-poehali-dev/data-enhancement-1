@@ -145,7 +145,7 @@ export function Hero() {
           >
             {"Готовые проекты"}
             <br />
-            <span className="text-orange-200">{"для вашего дома"}</span>
+            <span className="text-orange-200">{"каркасных домов"}</span>
           </h1>
         </div>
       </div>
