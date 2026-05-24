@@ -120,8 +120,8 @@ export function Hero() {
     <section id="hero" ref={heroRef} className="relative min-h-screen flex items-center justify-center overflow-hidden">
       <div className="absolute inset-0 z-0">
         <img
-          src="https://cdn.poehali.dev/projects/800f2c66-02b7-4695-af3d-f40b2dff00ef/files/08b453cc-3706-4d4e-a39e-684e66a5301a.jpg"
-          alt="Каркас каркасного дома"
+          src="https://cdn.poehali.dev/projects/800f2c66-02b7-4695-af3d-f40b2dff00ef/files/e6bc4041-6035-41a2-b300-ae6baea0afe8.jpg"
+          alt="Каркас дома в Revit"
           className="w-full h-full object-cover object-center"
         />
         <div className="absolute inset-0 bg-black/55" />
