@@ -118,13 +118,13 @@ export function Hero() {
 
   return (
     <section id="hero" ref={heroRef} className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      <div className="absolute inset-0 z-0">
+      <div className="absolute inset-0 z-0 bg-slate-800">
         <img
           src="https://cdn.poehali.dev/projects/800f2c66-02b7-4695-af3d-f40b2dff00ef/bucket/f5953178-bfb3-4289-81a5-a8139b6d616e.jpg"
           alt="3D модель каркасного дома"
-          className="w-full h-full object-cover object-center"
+          className="w-full h-full object-contain object-center"
         />
-        <div className="absolute inset-0 bg-black/55" />
+        <div className="absolute inset-0 bg-black/30" />
       </div>
 
       <div
