@@ -1,5 +1,6 @@
 import { useState, useEffect, MouseEvent } from "react"
 import { cn } from "../lib/utils"
+import Icon from "@/components/ui/icon"
 
 export function Header() {
   const [scrolled, setScrolled] = useState(false)
@@ -54,6 +55,14 @@ export function Header() {
             </li>
           ))}
         </ul>
+
+        <a
+          href="tel:+79093111393"
+          className="hidden md:inline-flex items-center gap-2 text-white text-sm hover:text-orange-200 transition-colors duration-300"
+        >
+          <Icon name="Phone" size={16} />
+          8-909-311-13-93
+        </a>
 
         <a
           href="#projects"
