@@ -120,10 +120,11 @@ export function Hero() {
     <section id="hero" ref={heroRef} className="relative min-h-screen flex items-center justify-center overflow-hidden">
       <div className="absolute inset-0 z-0">
         <img
-          src="https://cdn.poehali.dev/projects/800f2c66-02b7-4695-af3d-f40b2dff00ef/files/aa6e6c29-e33c-4c86-b987-6b35dc5ae8a4.jpg"
-          alt="Каркасный дом"
+          src="https://cdn.poehali.dev/projects/800f2c66-02b7-4695-af3d-f40b2dff00ef/files/08b453cc-3706-4d4e-a39e-684e66a5301a.jpg"
+          alt="Каркас каркасного дома"
           className="w-full h-full object-cover object-center"
         />
+        <div className="absolute inset-0 bg-black/55" />
       </div>
 
       <div
@@ -137,7 +138,7 @@ export function Hero() {
         }}
       >
         <div className="mb-72 md:mb-60 lg:mb-80">
-          <p className="text-xl tracking-[0.3em] uppercase text-center text-secondary mb-0">{"Каталог готовых проектов"}</p>
+          <p className="text-xl tracking-[0.3em] uppercase text-center text-white/80 mb-0">{"Каталог готовых проектов"}</p>
 
           <h1
             ref={titleRef}
@@ -145,7 +146,7 @@ export function Hero() {
           >
             {"Готовые проекты"}
             <br />
-            <span className="text-orange-200">{"каркасных домов"}</span>
+            <span className="text-orange-300">{"каркасных домов"}</span>
           </h1>
         </div>
       </div>
