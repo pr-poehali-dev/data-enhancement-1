@@ -138,16 +138,15 @@ export function Hero() {
         }}
       >
         <div className="mb-72 md:mb-60 lg:mb-80">
-          <p className="text-xl tracking-[0.4em] uppercase text-center text-white/80 mb-0" style={{ fontFamily: "'Cormorant Garamond', serif", letterSpacing: '0.4em' }}>{"Каталог готовых проектов"}</p>
+          <p className="text-xl tracking-[0.3em] uppercase text-center text-white/80 mb-0">{"Каталог готовых проектов"}</p>
 
           <h1
             ref={titleRef}
-            className="text-7xl text-balance text-center text-white mb-0 tracking-tight leading-[0.95] lg:text-8xl"
-            style={{ fontFamily: "'Cormorant Garamond', serif", fontWeight: 300 }}
+            className="text-7xl font-medium text-balance text-center text-white mb-0 tracking-tight leading-[0.9] lg:text-8xl"
           >
             {"Готовые проекты"}
             <br />
-            <span className="text-orange-300 italic">{"каркасных домов"}</span>
+            <span className="text-orange-300">{"каркасных домов"}</span>
           </h1>
         </div>
       </div>
