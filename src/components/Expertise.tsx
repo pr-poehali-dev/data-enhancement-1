@@ -1,30 +1,30 @@
 import { useEffect, useRef, useState } from "react"
-import { Home, Building, Armchair, Trees } from "lucide-react"
+import { FileText, Wrench, Clock, Shield } from "lucide-react"
 import { HighlightedText } from "./HighlightedText"
 
 const expertiseAreas = [
   {
-    title: "Жилая архитектура",
-    description: "Создаем дома, которые сочетают красоту с комфортом, где каждое пространство служит и форме, и функции.",
-    icon: Home,
+    title: "Полный пакет документов",
+    description: "Архитектурные чертежи, конструктивные решения, спецификации материалов — всё для немедленного старта строительства.",
+    icon: FileText,
   },
   {
-    title: "Коммерческие объекты",
+    title: "Строительная готовность",
     description:
-      "Проектируем рабочие пространства, которые вдохновляют на продуктивность и отражают ценности передовых организаций.",
-    icon: Building,
+      "Проекты разработаны для каркасной технологии и учитывают все современные нормы и требования.",
+    icon: Wrench,
   },
   {
-    title: "Дизайн интерьеров",
+    title: "Быстрый старт",
     description:
-      "Создаем интерьеры, которые гармонируют с архитектурной оболочкой, формируя целостный пространственный опыт.",
-    icon: Armchair,
+      "Получите проект сразу после оплаты. Больше не нужно месяцами ждать индивидуального проектирования.",
+    icon: Clock,
   },
   {
-    title: "Градостроительство",
+    title: "Надёжность и гарантия",
     description:
-      "Формируем сообщества через продуманную интеграцию общественных пространств, зданий и природных элементов.",
-    icon: Trees,
+      "Каждый проект проверен инженерами и имеет все необходимые расчёты несущих конструкций и инженерных систем.",
+    icon: Shield,
   },
 ]
 
@@ -57,14 +57,14 @@ export function Expertise() {
     <section id="services" ref={sectionRef} className="py-32 md:py-29">
       <div className="container mx-auto px-6 md:px-12">
         <div className="max-w-3xl mb-20">
-          <p className="text-muted-foreground text-sm tracking-[0.3em] uppercase mb-6">Наши услуги</p>
+          <p className="text-muted-foreground text-sm tracking-[0.3em] uppercase mb-6">Почему мы</p>
           <h2 className="text-6xl font-medium leading-[1.15] tracking-tight mb-6 text-balance lg:text-8xl">
-            <HighlightedText>Экспертиза</HighlightedText>, отточенная
+            <HighlightedText>Преимущества</HighlightedText> готовых
             <br />
-            практикой
+            проектов
           </h2>
           <p className="text-muted-foreground text-lg leading-relaxed">
-            Каждый проект опирается на десятилетия совокупного опыта, создавая архитектуру, которая одновременно инновационна и вневременна.
+            Готовый проект — это самый быстрый и экономичный путь от идеи к собственному дому. Все расчёты уже сделаны — вам остаётся только строить.
           </p>
         </div>
 
