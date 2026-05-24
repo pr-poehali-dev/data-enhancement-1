@@ -34,7 +34,7 @@ export function Header() {
     >
       <nav className="container mx-auto px-6 flex items-center justify-between md:px-[24]">
         <a href="/" className="flex items-center gap-2 group" onClick={scrollToTop}>
-          <span className="text-white font-semibold text-lg tracking-widest uppercase">KARKASCREATOR</span>
+          <span className="text-foreground font-semibold text-lg tracking-widest uppercase">KARKASCREATOR</span>
         </a>
 
         <ul className="hidden md:flex items-center gap-10 text-sm tracking-wide">
@@ -48,7 +48,7 @@ export function Header() {
             <li key={item.label}>
               <a
                 href={item.href}
-                className="hover:text-[rgb(251,146,60)] transition-colors duration-300 relative after:absolute after:bottom-0 after:left-0 after:h-px after:w-0 hover:after:w-full after:bg-[rgb(251,146,60)] after:transition-all after:duration-300 text-white"
+                className="hover:text-[rgb(251,146,60)] transition-colors duration-300 relative after:absolute after:bottom-0 after:left-0 after:h-px after:w-0 hover:after:w-full after:bg-[rgb(251,146,60)] after:transition-all after:duration-300 text-foreground"
               >
                 {item.label}
               </a>
@@ -58,7 +58,7 @@ export function Header() {
 
         <a
           href="tel:+79093111393"
-          className="hidden md:inline-flex items-center gap-2 text-white text-sm hover:text-orange-200 transition-colors duration-300"
+          className="hidden md:inline-flex items-center gap-2 text-foreground text-sm hover:text-orange-500 transition-colors duration-300"
         >
           <Icon name="Phone" size={16} />
           8-909-311-13-93
@@ -77,7 +77,7 @@ export function Header() {
         </a>
 
         <button
-          className="md:hidden z-50 transition-colors duration-300 text-white"
+          className="md:hidden z-50 transition-colors duration-300 text-foreground"
           aria-label={mobileMenuOpen ? "Закрыть меню" : "Открыть меню"}
           onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
         >
